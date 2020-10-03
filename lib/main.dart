@@ -15,7 +15,7 @@ class ClockApp extends StatelessWidget {
       theme: ThemeData(
         brightness: Brightness.dark,
         accentColor: Colors.red,
-        canvasColor: Colors.grey[900],
+        canvasColor: Colors.grey[900], //black would be better
         textTheme: TextTheme(),
       ),
       home: HomePage(),
